@@ -35,12 +35,12 @@ dependencies {
 publishing {
     repositories {
         maven {
-            url = codingArtifactsRepoUrl
+            url = devopsArtifactsRepoUrl
             credentials {
-                username = codingArtifactsGradleUsername
-                password = codingArtifactsGradlePassword
+                username = devopsArtifactsGradleUsername
+                password = devopsArtifactsGradlePassword
             }
-            name 'coding'
+            name 'devops'
         }
         maven {
             url = bebullishArtifactsRepoUrl
